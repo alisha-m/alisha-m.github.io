@@ -16,6 +16,25 @@ nav {
     font-family: 'Poppins', sans-serif;
 }
 
+h2.about {
+  padding-top: 0.5%;
+  padding-left: 18%;
+  text-align: center;
+}
+p.about1 {
+  padding-top: 0.5%;
+  padding-left: 25%;
+  padding-right: 5%;
+  text-align: justify;
+}
+p.about2 {
+  padding-top: 0.5%;
+  padding-left: 25%;
+  padding-right: 5%;
+  text-align: justify;
+}
+
+
 /* Profile Picture. ***********************************************************/
 
 #alisha {
@@ -23,6 +42,78 @@ nav {
     width:150px;
     border-radius: 50%;
     z-index: 10;
+    top: 150px;
+    left: 100px;
+    position: fixed;
+}
+
+#basic {
+    padding-top: 0.5%;
+    padding-left: 3%;
+    text-align: left;
+    width: 90%;
+}
+
+.innerCircle {
+  background-color: transparent;
+  border: 6px solid #c38d9e;
+  opacity: .9;
+  border-left: 6px solid #c38d9e;
+  border-right: 6px solid transparent;
+  border-radius: 100px;
+  top: 145px;
+  left: 95px;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  position: fixed;
+  -moz-animation: spinoffPulse 14s infinite linear;
+  -webkit-animation: spinoffPulse 14s infinite linear;
+}
+
+.outerCircle {
+  background-color: transparent;
+  border: 6px solid #AC3B61;
+  opacity: .9;
+  border-left: 6px solid transparent;
+  border-right: 6px solid #AC3B61;
+  border-radius: 100px;
+  top: 140px;
+  left: 90px;
+  width: 160px;
+  height: 160px;
+  margin: 0 auto;
+  position: fixed;
+  -moz-animation: spinoffPulse 15s infinite linear;
+  -webkit-animation: spinoffPulse 15s infinite linear;
+}
+
+@-moz-keyframes spinPulse {
+    0% { -moz-transform:rotate(160deg); opacity:0; box-shadow:0 0 1px #bdd73c;}
+	50% { -moz-transform:rotate(145deg); opacity:1; }
+	100% { -moz-transform:rotate(-320deg); opacity:0; }
+}
+@-moz-keyframes spinoffPulse {
+    0% { -moz-transform:rotate(0deg); }
+	100% { -moz-transform:rotate(360deg);  }
+}
+@-webkit-keyframes spinPulse {
+    0% { -webkit-transform:rotate(160deg); opacity:0; box-shadow:0 0 1px #bdd73c; }
+	50% { -webkit-transform:rotate(145deg); opacity:1;}
+	100% { -webkit-transform:rotate(-320deg); opacity:0; }
+}
+@-webkit-keyframes spinoffPulse {
+    0% { -webkit-transform:rotate(0deg); }
+	100% { -webkit-transform:rotate(360deg); }
+}
+@-moz-keyframes rotatecircle {
+    0% { -moz-transform:rotate(0deg); }
+	100% { -moz-transform:rotate(-360deg); }
+}
+
+@-webkit-keyframes rotatecircle {
+    0% { -webkit-transform:rotate(0deg); }
+100% { -webkit-transform:rotate(-360deg); }
 }
 
 /* Add Name. ******************************************************************/
