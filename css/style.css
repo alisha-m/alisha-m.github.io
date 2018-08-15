@@ -67,8 +67,8 @@ p.about2 {
   height: 150px;
   margin: 0 auto;
   position: fixed;
-  -moz-animation: spinoffPulse 14s infinite linear;
-  -webkit-animation: spinoffPulse 14s infinite linear;
+  -moz-animation: spinoffPulse 15s infinite linear;
+  -webkit-animation: spinoffPulse 15s infinite linear;
 }
 
 .outerCircle {
