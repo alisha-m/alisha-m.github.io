@@ -7,14 +7,16 @@ body {
     background-color: #EEE2DC;
     color: #AC3B61;
     padding-top:2.5%;
-    font-family: 'Georgia', monospace;
+    font-family: 'Poppins', sans-serif;
 }
 
 nav {
     color: white;
     font-size: 2.0em;
-    font-family: 'Georgia';
+    font-family: 'Poppins', sans-serif;
 }
+
+/* Profile Picture. ***********************************************************/
 
 #alisha {
     vertical-align: middle;
@@ -22,18 +24,19 @@ nav {
     border-radius: 15%;
     z-index: 10;
 }
+
 /* Add Name. ******************************************************************/
 
 h1.first {
   color:#c38d9e;
   font-weight:bold;
-  font-family:'Georgia', monospace;
+  font-family: 'Poppins', sans-serif;
   font-size:20 }
 
 span.last {
   color:#AC3B61;
   font-weight:bold;
-  font-family: 'Georgia', monospace;
+  font-family: 'Poppins', sans-serif;
   font-size:20 }
 
 /* Social Media Icons. ********************************************************/
